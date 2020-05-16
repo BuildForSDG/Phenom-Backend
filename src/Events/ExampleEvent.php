@@ -13,4 +13,7 @@ class ExampleEvent extends Event
     {
         //
     }
+
+    public function doNoting()
+    {}
 }
