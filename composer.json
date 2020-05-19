@@ -1,5 +1,5 @@
 {
-    "name": "Phenom-Backend",
+    "name": "phenom/backend",
     "description": "The backend solution for the Phenom project.",
     "keywords": ["phenom", "sdg", "project"],
     "license": "MIT",
