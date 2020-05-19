@@ -1,6 +1,6 @@
 <?php
 
-require_once '../vendor/autoload.php';
+include_once '../vendor/autoload.php';
 
 (new Laravel\Lumen\Bootstrap\LoadEnvironmentVariables(
     '../../'
@@ -109,7 +109,7 @@ $app->configure('app');
 $app->router->group([
     'namespace' => 'App\Http\Controllers',
 ], function ($router) {
-    require '../routes/web.php';
+    include '../routes/web.php';
 });
 
 return $app;

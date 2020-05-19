@@ -11,6 +11,6 @@ abstract class TestCase extends BaseTestCase
      */
     public function createApplication()
     {
-        return include __DIR__.'/../bootstrap/app.php';
+        return include '../bootstrap/app.php';
     }
 }

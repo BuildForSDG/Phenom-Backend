@@ -11,7 +11,7 @@
 |
 */
 
-$app = include_once '../bootstrap/app.php';
+$app = include '../bootstrap/app.php';
 
 /*
 |--------------------------------------------------------------------------
