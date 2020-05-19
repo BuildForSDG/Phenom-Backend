@@ -11,7 +11,7 @@
 |
 */
 
-$app = include __DIR__.'/../bootstrap/app.php';
+$app = include_once '../bootstrap/app.php';
 
 /*
 |--------------------------------------------------------------------------
